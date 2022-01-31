@@ -121,7 +121,7 @@ export default function Index() {
             videoConstraints={{
               width: 1920,
               height: 1080,
-              facingMode: `user`,
+              facingMode: `environment`,
             }}
           />
         </Box>
