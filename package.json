@@ -1,5 +1,6 @@
 {
   "name": "jis-reader-ts",
+  "homepage": "https://umahaumai.github.io/jis-reader-ts",
   "packageManager": "yarn@3.1.1",
   "keywords": [
     "gatsby"
@@ -14,6 +15,7 @@
     "lint": "eslint --ignore-path .gitignore \"src/**/*.+(ts|js|tsx)\"",
     "format": "prettier --ignore-path .gitignore \"src/**/*.+(ts|js|tsx)\" --write",
     "postinstall": "husky install",
+    "deploy": "yarn build --prefix-paths && gh-pages -d public",
     "test": "jest",
     "commit": "cz"
   },
@@ -32,6 +34,7 @@
     "gatsby": "4.5.4",
     "gatsby-plugin-image": "^2.6.0",
     "gatsby-source-filesystem": "^4.6.0",
+    "gh-pages": "^3.2.3",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-webcam": "^6.0.1",
