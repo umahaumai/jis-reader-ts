@@ -6,7 +6,7 @@
   ],
   "license": "0BSD",
   "scripts": {
-    "start": "gatsby develop --port 8001",
+    "start": "gatsby develop --port 8001 --host=0.0.0.0",
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
@@ -28,6 +28,7 @@
     "@emotion/styled": "^11.6.0",
     "@mui/material": "^5.3.1",
     "@yarnpkg/pnpify": "^3.1.1-rc.12",
+    "dayjs": "^1.10.7",
     "gatsby": "4.5.4",
     "gatsby-plugin-image": "^2.6.0",
     "gatsby-source-filesystem": "^4.6.0",

@@ -74,6 +74,8 @@
         "prettier"
       ],
       "rules": {
+        "array-callback-return": "off",
+        "react/no-array-index-key": "off",
         "no-restricted-exports": "off",
         "@typescript-eslint/explicit-function-return-type": "off",
         "@typescript-eslint/no-explicit-any": "off",

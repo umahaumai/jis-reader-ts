@@ -55,6 +55,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["babel-preset-gatsby", "virtual:af3682935c5170013a7c923cde0e69e904d1dd921e726f1531ded05d04e2bf81af182007803219aa852222a328627ee5b43c932d2e9528b779d3ec80acfb2d82#npm:2.5.2"],
             ["commitizen", "npm:4.2.4"],
             ["cz-conventional-changelog", "npm:3.3.0"],
+            ["dayjs", "npm:1.10.7"],
             ["eslint", "npm:8.7.0"],
             ["eslint-config-airbnb", "virtual:af3682935c5170013a7c923cde0e69e904d1dd921e726f1531ded05d04e2bf81af182007803219aa852222a328627ee5b43c932d2e9528b779d3ec80acfb2d82#npm:19.0.4"],
             ["eslint-config-prettier", "virtual:af3682935c5170013a7c923cde0e69e904d1dd921e726f1531ded05d04e2bf81af182007803219aa852222a328627ee5b43c932d2e9528b779d3ec80acfb2d82#npm:8.3.0"],
@@ -11259,6 +11260,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["dayjs", [
+        ["npm:1.10.7", {
+          "packageLocation": "./.yarn/cache/dayjs-npm-1.10.7-34318a8e39-a0a4ca95ab.zip/node_modules/dayjs/",
+          "packageDependencies": [
+            ["dayjs", "npm:1.10.7"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["debug", [
         ["npm:2.6.9", {
           "packageLocation": "./.yarn/cache/debug-npm-2.6.9-7d4cb597dc-d2f51589ca.zip/node_modules/debug/",
@@ -17265,6 +17275,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["babel-preset-gatsby", "virtual:af3682935c5170013a7c923cde0e69e904d1dd921e726f1531ded05d04e2bf81af182007803219aa852222a328627ee5b43c932d2e9528b779d3ec80acfb2d82#npm:2.5.2"],
             ["commitizen", "npm:4.2.4"],
             ["cz-conventional-changelog", "npm:3.3.0"],
+            ["dayjs", "npm:1.10.7"],
             ["eslint", "npm:8.7.0"],
             ["eslint-config-airbnb", "virtual:af3682935c5170013a7c923cde0e69e904d1dd921e726f1531ded05d04e2bf81af182007803219aa852222a328627ee5b43c932d2e9528b779d3ec80acfb2d82#npm:19.0.4"],
             ["eslint-config-prettier", "virtual:af3682935c5170013a7c923cde0e69e904d1dd921e726f1531ded05d04e2bf81af182007803219aa852222a328627ee5b43c932d2e9528b779d3ec80acfb2d82#npm:8.3.0"],
