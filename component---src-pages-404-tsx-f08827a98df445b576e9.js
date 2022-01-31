@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkjis_reader_ts=self.webpackChunkjis_reader_ts||[]).push([[218],{2710:function(e,n,r){r.r(n),r.d(n,{default:function(){return u}});var t=r(6687);function u(){return t.createElement("main",null,t.createElement("p",null,"Sorry, page not found!"))}}}]);
+//# sourceMappingURL=component---src-pages-404-tsx-f08827a98df445b576e9.js.map
